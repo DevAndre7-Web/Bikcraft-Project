@@ -1,0 +1,167 @@
+.suppliers h2 {
+  margin-top: 8rem;
+}
+
+.sup-flex {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.sup-flex img {
+  padding: 30px;
+  width: 50%;
+}
+
+.suppliers::after {
+  content: "";
+  display: inline-block;
+  height: 2px;
+  width: 900px;
+  background-color: #ededed;
+  position: relative;
+  top: -158px;
+  right: -200px;
+}
+
+.customer-img {
+  height: 400px;
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.container-customer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.info-customer h3 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+  color: #332200;
+}
+
+.detail-customer {
+  color: #e4a30b;
+  font-size: 2rem;
+  position: relative;
+  left: -10px;
+  font-size: 3rem;
+}
+
+.detail-customer2 {
+  position: relative;
+  color: #e4a30b;
+  font-size: 2rem;
+}
+
+.detail-customer2 {
+  position: relative;
+  top: 25px;
+  font-size: 40px;
+}
+
+.info-customer {
+  color: #332200;
+  align-content: end;
+  height: 400px;
+  background-color: #ffbb00;
+}
+
+.info-customer h3 {
+  line-height: 1.1;
+  margin: 0;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 60px;
+}
+
+.customer-name {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  color: #664400;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.arrow-left {
+  height: 42px;
+  position: relative;
+  left: 22px;
+  bottom: 90px;
+}
+
+.arrow-right {
+  height: 42px;
+  position: relative;
+  top: 220px;
+  right: -580px;
+}
+
+@media (max-width: 768px) {
+  .suppliers h2 {
+    margin-top: 4rem;
+    text-align: center;
+  }
+
+  .sup-flex {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  .suppliers::after {
+    width: 80%;
+    right: 10%;
+    top: -100px;
+  }
+
+  .container-customer {
+    grid-template-columns: 1fr;
+  }
+
+  .customer-img {
+    height: 300px;
+  }
+
+  .info-customer {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .arrow-left, .arrow-right {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .sup-flex {
+    grid-template-columns: 1fr;
+  }
+
+  .sup-flex img {
+    width: 60%;
+  }
+
+  .suppliers::after {
+    display: none;
+  }
+
+  .customer-img {
+    height: 250px;
+  }
+
+  .info-customer h3 {
+    font-size: 1.2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .customer-name {
+    margin-left: 20px;
+  }
+}

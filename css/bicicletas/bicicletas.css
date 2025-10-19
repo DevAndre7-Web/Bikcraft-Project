@@ -1,0 +1,474 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem;
+}
+
+ul{
+    display: flex;
+    gap: 2rem;
+    margin-right: 8rem;
+}
+
+.main-header img{
+    max-width: 100%;
+    height: 40px;
+    margin-left: 12rem;
+}
+
+li{
+    color: white;
+    list-style: none;
+    font-size: 1.2rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+li::after{
+    content: "";
+    width: 90px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: 4px;
+    display: block;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+li:hover::after{
+    transform: scaleX(1);
+}
+
+span{
+    color: #FFBB00;
+}
+
+.header-s{
+    background-color: #111111;
+    height: 10rem;
+    margin: 0;
+    padding-top: 2rem;
+}
+
+.header-s h1{
+    color: #FFFFFF;
+    font-size: 3rem;
+    margin: 0;
+    margin-left: 12rem;
+}
+
+.header-s p {
+    color: #B2B2B2;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 0.1rem;
+    margin-left: 12rem;
+}
+
+.nimbus-model{
+    height: 300px;
+    border-radius: 3px;
+}
+
+.icon{
+    height: 20px;
+}
+
+.info-n p{
+    color: #595959;
+    font-weight: 600;
+}
+
+.info-n h3{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #111111;
+}
+
+.bottom-arrow{
+    text-decoration: none;
+    color: #332200;
+    background-color: #FFBF00;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.det{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #595959;
+}
+
+.models{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    padding: 3rem 0;
+}
+
+.nimbus-model-container{
+    justify-self: center;
+    align-self: center;
+    position: relative;
+}
+
+.price-tag {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 16px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 3px 0 0 3px;
+}
+
+.info-n{
+    align-self: center;
+    justify-self: center;
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.info-n h2{
+    font-size: 1.6rem;
+}
+
+.icon {
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.detail-s{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.detail-s p {
+    margin: 0;
+}
+
+.detail-stark::after{
+    content: "";
+    height: 7px;
+    width: 12px;
+    background-color: #FFBB00;
+    display: block;
+    position: relative;
+    bottom: 45px;
+}
+
+.rel{
+    position: relative;
+    bottom: 17rem;
+    left: 32rem;
+    height: 40px;
+}
+
+.header-sc,
+.models,
+.nebula {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: block;
+    margin: 0;
+}
+
+.magic-might{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    height: auto;
+    padding: 3rem 0;
+    position: relative;
+}
+
+.magic-might::before {
+    content: "";
+    position: absolute;
+    top: 1.4rem;
+    right: 0;
+    width: 900px;
+    height: 420px;
+    background-color: #111111;
+    z-index: -1;
+    border-radius: 3px;
+}
+
+.magic-model-container {
+    justify-self: center;
+    align-self: center;
+    position: relative;
+}
+
+.magic-model-container img {
+    height: 300px;
+    border-radius: 3px;
+}
+
+.detail-stark-2::after{
+    content: "";
+    height: 7px;
+    width: 12px;
+    background-color: #FFBB00;
+    display: block;
+    position: relative;
+    bottom: 45px;
+}
+
+.detail-stark-2{
+    color: #ffff;
+}
+
+.nebula-cosmic {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3rem;
+}
+
+.nebula-model-container {
+    justify-self: center;
+    align-self: center;
+    position: relative;
+}
+
+.nebula-model {
+    height: 300px;
+    border-radius: 3px;
+}
+
+footer{
+    background-color: #111111;
+    height: 500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 18rem;
+}
+
+footer h3{
+    color: #fff;
+}
+
+footer p {
+    color: #B2B2B2;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-right: 0;
+    height: 350px;
+    
+}
+
+footer li{
+    color: #B2B2B2;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 3rem;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    align-items: flex-start;
+   
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+.logo-footer img{
+    margin-top:4rem;
+}
+
+.contact{
+    margin-top: 3.4rem;
+}
+
+.info{
+    margin-top: 3.4rem;
+}
+
+.contact img{
+    margin-right: 1rem;
+}
+
+li a{
+    text-decoration: none;
+    color: #B2B2B2;
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .main-header img {
+        margin-left: 0;
+        height: 32px;
+    }
+
+    ul {
+        flex-direction: column;
+        margin-right: 0;
+        gap: 0.5rem;
+    }
+
+    li::after {
+        width: 60px;
+    }
+
+    .header-s {
+        height: auto;
+        padding: 2rem 1rem;
+    }
+
+    .header-s h1 {
+        font-size: 2rem;
+        margin-left: 2rem;
+    }
+
+    .header-s p {
+        margin-left: 2rem;
+    }
+
+    .models, .magic-might, .nebula-cosmic {
+        grid-template-columns: 1fr;
+        padding: 2rem 1rem;
+    }
+
+    .nimbus-model, .magic-model-container img, .nebula-model {
+        height: 250px;
+    }
+
+    .price-tag {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
+
+    .info-n {
+        padding: 0.5rem;
+    }
+
+    .info-n h2 {
+        font-size: 1.4rem;
+    }
+
+    .rel {
+        display: none;
+    }
+
+    .magic-might::before {
+        width: 100%;
+    }
+
+    footer {
+        padding: 1rem;
+    }
+
+    .grid-footer {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-header img {
+        height: 24px;
+    }
+
+    ul {
+        gap: 0.3rem;
+    }
+
+    li a {
+        font-size: 0.9rem;
+    }
+
+    .header-s h1 {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+    }
+
+    .header-s p {
+        margin-left: 1rem;
+        font-size: 1rem;
+    }
+
+    .models, .magic-might, .nebula-cosmic {
+        padding: 1rem 0.5rem;
+    }
+
+    .nimbus-model, .magic-model-container img, .nebula-model {
+        height: 200px;
+    }
+
+    .price-tag {
+        font-size: 0.9rem;
+        padding: 5px 10px;
+    }
+
+    .info-n h2 {
+        font-size: 1.2rem;
+    }
+
+    .det {
+        font-size: 0.9rem;
+    }
+
+    .bottom-arrow {
+        padding: 8px 12px;
+        font-size: 0.8rem;
+    }
+
+    .detail-s {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer h3 {
+        font-size: 1.2rem;
+    }
+
+    footer p, footer li {
+        font-size: 0.9rem;
+    }
+}

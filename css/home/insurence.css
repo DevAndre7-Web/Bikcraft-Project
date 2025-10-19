@@ -1,0 +1,268 @@
+.insurence {
+  background-color: #111111;
+  color: aliceblue;
+}
+
+.insurence h3 {
+  font-size: 3rem;
+  color: white;
+  margin: 0px;
+  margin-left: 12rem;
+  padding: 3rem;
+}
+
+.c4 {
+  font-size: 1.8rem;
+  color: #9c9c9c;
+  margin-left: 1.4rem;
+}
+
+.subscribe {
+  background-color: #2e2e2e;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  color: #cccccc;
+  margin-left: 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.container-in {
+  display: grid;
+  grid-template-columns: 220px 220px;
+  background-color: #000000;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+.price-in {
+  margin-top: 2.4rem;
+  font-size: 1.7rem;
+  text-align: right;
+}
+
+.price-in::after {
+  content: "mensal";
+  font-size: 0.8rem;
+  color: #9c9c9c;
+  font-weight: 600;
+  position: relative;
+  top: 16px;
+  right: 46px;
+}
+
+.inf-in {
+  margin-left: 2rem;
+}
+
+.double-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.gold {
+  font-size: 1.8rem;
+  color: #ffbb00;
+  margin-left: 1.4rem;
+}
+
+.inf-in p {
+  white-space: nowrap;
+  margin-top: 0px;
+}
+
+.subscribe-gold {
+  background-color: #ffbf00;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  color: #cccccc;
+  margin-left: 1.2rem;
+  text-decoration: none;
+  color: #332200;
+  font-weight: 600;
+}
+
+.detail-in {
+  position: relative;
+  left: -190px;
+  height: 50px;
+  bottom: 50px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  padding: 1px;
+  scroll-margin-top: 80px;
+}
+
+.grid-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  height: 400px;
+}
+
+#contato{
+  scroll-margin-top: 100px;
+}
+
+.logo-footer {
+  margin-top: 4rem;
+}
+
+.contact {
+  margin-top: 2.3rem;
+}
+
+.contact h3 {
+  font-size: 1.6rem;
+}
+
+.contact p {
+  color: #b2b2b2;
+}
+
+.ctc{
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.dtf::after{
+  content:"";
+  display: block;
+  height: 2px;
+  width: 400px;
+  background-color: #111111;
+  margin-top: 1rem;
+}
+
+.r-footer{
+  display: flex;
+  gap: 2rem;
+}
+
+.information h3{
+  text-transform: uppercase;
+  margin-top: 3.7rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.flex-i ul{
+  list-style: none;
+  padding: 0;
+}
+
+.flex-i li{
+  margin-bottom: 15px
+}
+
+.information li{
+    list-style: none;
+}
+
+.information a{
+  color: #B2B2B2;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .insurence h3 {
+    font-size: 2rem;
+    margin-left: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .c4, .gold {
+    font-size: 1.4rem;
+    margin-left: 1rem;
+  }
+
+  .subscribe, .subscribe-gold {
+    margin-left: 1rem;
+  }
+
+  .double-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+    gap: 2rem;
+  }
+
+  .container-in {
+    max-width: 100%;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .price-in {
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .detail-in {
+    display: none;
+  }
+
+  .grid-footer {
+    grid-template-columns: 1fr;
+    height: auto;
+    padding: 2rem 0;
+    gap: 2rem;
+  }
+
+  .logo-footer {
+    margin-top: 2rem;
+  }
+
+  .dtf::after {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .r-footer {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .insurence h3 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    padding: 1.5rem 0.5rem;
+  }
+
+  .c4, .gold {
+    font-size: 1.2rem;
+  }
+
+  .container-in {
+    padding: 20px;
+  }
+
+  .inf-in p {
+    white-space: normal;
+    font-size: 0.9rem;
+  }
+
+  .subscribe, .subscribe-gold {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+
+  .contact h3, .information h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact p {
+    font-size: 0.9rem;
+  }
+}
+

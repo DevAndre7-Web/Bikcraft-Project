@@ -1,0 +1,268 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #000000;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  list-style: none;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav {
+  margin-right: 5rem;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  margin-right: 2rem;
+  font-weight: 600;
+}
+
+header img {
+  height: 2rem;
+  margin-left: 15rem;
+}
+
+a::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #ffffff;
+  transform-origin: center;
+  transform: scaleX(0);
+  transition: transform 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
+  background: #ffffff;
+  transform: scaleX(1);
+}
+
+.choice {
+  color: #b2b2b2;
+  text-transform: uppercase;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  font-family: poppins, sans-serif;
+}
+
+main {
+  background-color: #111111;
+  height: 750px;
+}
+
+span {
+  color: #ffffff;
+}
+
+.dt {
+  position: absolute;
+  top: 9rem;
+  right: 6rem;
+  height: 3rem;
+}
+
+.head-choice {
+  margin-left: 15rem;
+  padding-top: 2.5rem;
+}
+
+.card-silver h2 {
+  color: #9c9c9c;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  margin-left: 2rem;
+}
+
+.card-silver h3 {
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+.card-silver {
+  display: grid;
+  grid-template-columns: 250px auto;
+  margin-top: 3rem;
+  padding: 2rem;
+  gap: 1rem;
+}
+
+.card-silver {
+  background-color: #000000;
+
+  width: auto;
+  border-radius: 4px;
+}
+
+.card-header p {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.card-header img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.btn-subscribe {
+  text-decoration: none;
+  color: #cccccc;
+  background-color: #2e2e2e;
+  text-transform: uppercase;
+  padding: 12px 19px;
+  display: inline-block;
+  margin-left: 1.8rem;
+  margin-top: 1.7rem;
+  font-weight: 600;
+  font-family: poppins, sans-serif;
+  border-radius: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.gold {
+  color: #ffd700;
+}
+
+.gold-insu {
+  color: transparent;
+  border-radius: 50%;
+  vertical-align: middle;
+  color: #ffd700;
+  font-weight: 700;
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  background-color: #ffd700;
+  color: transparent;
+  border-radius: 50%;
+  margin-left: 0.4rem;
+}
+.dtn {
+  position: relative;
+  display: inline-block;
+}
+
+.dtn::after {
+  content: "mensal";
+  font-size: 0.8rem;
+  color: #9c9c9c;
+  position: absolute;
+  left: 58px;
+  top: 28px;
+}
+
+.dtn-fo {
+  position: relative;
+}
+
+.dtn-fo img {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  height: 45px;
+}
+
+.btn-subscribe-gold {
+  text-decoration: none;
+  color: #332200;
+  background-color: #ffbf00;
+  text-transform: uppercase;
+  padding: 12px 19px;
+  display: inline-block;
+  margin-left: 1.8rem;
+  margin-top: 1.7rem;
+  font-weight: 600;
+  font-family: poppins, sans-serif;
+  border-radius: 4px;
+}
+
+main > section:first-of-type {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.advantages {
+  color: #ffffff;
+  font-size: 2.5rem;
+  margin-top: 4rem;
+  background-color: #000000;
+  height: 500px;
+}
+
+.gold-insuran {
+  color: transparent;
+  border-radius: 50%;
+  vertical-align: middle;
+  font-weight: 700;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ffd700;
+  color: transparent;
+  margin-left: 0.4rem;
+  margin-top: 1rem;
+}
+
+.advantages h3 {
+  margin-left: 15rem;
+  padding-top: 2.5rem;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-top: 0px;
+}
+
+.info {
+  color: #9c9c9c;
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
+
+.picture {
+  height: 25px;
+}
+
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.questions{
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-left: 15rem;
+}
