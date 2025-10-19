@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  background-color: #000;
+}
+
+.h-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10%;
+}
+
+.h-flex nav ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0px;
+  padding: 0px;
+}
+
+.h-flex nav a {
+  position: relative;
+}
+
+.h-flex nav a::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  transition: width 0.3s;
+}
+
+.h-flex nav a:hover::after {
+  width: 100%;
+
+  ul li {
+    list-style: none;
+  }
+}
+
+.main-contact {
+  background-color: #111111;
+  height: 500px;
+  padding-left: 8rem;
+  padding-top: 4rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+section h4 {
+  color: #b2b2b2;
+  font-weight: 400;
+}
+
+.main-contact h1 {
+  color: #fff;
+  font-size: 3.4rem;
+  margin-top: 0px;
+}
+
+span {
+  color: #ffcc00;
+}
+
+.contact-c {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: 300px 600px;
+  height: 350px;
+  gap: 0;
+}
+
+.title-shop {
+  color: #ffffff;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.pragh {
+  color: #ffffff;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.pragh-phone {
+  color: #ffffff;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  vertical-align: middle;
+}
+
+.social-flex {
+  display: flex;
+  gap: 2rem;
+  padding-left: 1rem;
+  margin-top: 1.5rem;
+}
+
+.pragh-mail {
+  color: #ffffff;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  padding-top: 1rem;
+}
+
+.shop {
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.register {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 4px;
+}
+
+.form-cad {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.names,
+.tels {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-cad input {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.mails{
+    display: block;
+    padding-top: 1rem;
+}
+
+.i-mail {
+  width: 100%;
+  height: 40px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.sms{
+    display: block;
+    padding-top: 1rem;
+}
+
+.i-sms{
+  width: 100%;
+  height: 120px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.send-mensage button {
+    height: 50px;
+    padding: 3px 20px;
+    color: #332200;
+    background-color: #ffcc00;
+    border:none;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+main section:nth-of-type(2) {
+  margin-top: 200px;
+}
+
+.framess h2{
+    font-size: 3.5rem;
+    font-weight: 600;
+    margin-left: 8rem;
+}
+
+.title-city{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.frames{
+    display: flex;
+    gap: 2rem;
+    margin-right: 3.4rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.adress-flex{
+    display: flex;
+    gap: 6rem;
+    color: #595959;
+}
+
+.time{
+    color: #000;
+    padding-top: 1.8rem;
+    padding-bottom: 3rem;
+}
+
+.time p img{
+    vertical-align: middle;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+footer {
+  background-color: #000;
+  height: 400px;
+}
+
+.grid-footerr{
+    display: grid;
+    grid-template-columns: 300px 300px 300px ;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.logo-footerr {
+    margin-top: 6rem;
+}
+
+.ctcc{
+    color: #ffffff;
+    margin-top: 6rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.dtff{
+    color: #B2B2B2;
+}
+
+.r-footerr{
+    padding-top: 2rem;
+}
+
+.information h3{
+    color: #ffffff;
+    padding-top: 6rem;
+}
+
+.flex-ii a{
+    text-decoration: none;
+    color: #B2B2B2;
+}
