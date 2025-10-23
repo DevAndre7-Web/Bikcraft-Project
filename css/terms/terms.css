@@ -22,6 +22,7 @@ ul{
     gap: 2rem;
     font-size: 1.1rem;
     padding-right: 4rem;
+    list-style: none;
 }
 
 ul a{
@@ -92,4 +93,84 @@ footer{
 
 .final{
     padding-bottom: 3rem;
+}
+
+@media (max-width: 600px) {
+    header img{
+        padding-left: 2rem;
+        width: 120px;
+    }
+
+    .terms{
+        padding-left: 2rem;
+        height: 180px;
+    }
+
+    .politic{
+        grid-template-columns: 300px;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    header img{
+        padding-left: 0;
+    }
+
+    header nav{
+        padding-top: 1rem;
+        padding-left: 0;
+    }
+
+    .terms{
+        padding-left: 1rem;
+        height: auto;
+    }
+
+    .terms h1{
+        font-size: 1.5rem;
+        color: #fff;
+    }
+
+    .terms h5{
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 800px) {
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    header ul{
+        padding-right: 0;
+        padding-top: 1rem;
+    }
+
+    header img{
+        padding-left: 0;
+    }
+
+    .tems{
+        padding-right:4px ;
+    }
+    .terms h1{
+        font-size: 2rem;
+        margin-right: 8rem;
+    }
+
+    .politic{
+        grid-template-columns: 400px;
+        padding: 1rem;
+        padding-left: 8rem;
+    }
 }
